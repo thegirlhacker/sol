@@ -4,5 +4,5 @@
   "tenants": "data/tenants.json",
   "verified": "data/verified_senders.json",
   "templates": "templates",
-  "tenant": "default"
+  "tenant": "acme"
 }

@@ -1,7 +1,8 @@
 {
-  "_note": "Domains that have completed sender verification (SPF/DKIM). Prod northwind.test is pending DNS (ticket OPS-4821).",
+  "_note": "Domains that have completed sender verification (SPF/DKIM). All tenant sandbox domains are verified; production domains are pending DNS.",
   "verified": [
-    "sandbox.northwind.test",
-    "globalpay.test"
+    "acme-sandbox.test",
+    "globex-sandbox.test",
+    "initech-sandbox.test"
   ]
 }

@@ -1,7 +1,8 @@
 """Assemble the install tree from a resolved package set.
 
 Each resolved package's payload is copied into `<out>/site-packages/<name>/`. The build config
-(`build.json`) lists the top-level roots, the lockfile, and the index search path.
+(`build.json`) lists the top-level roots, the lockfile, the attestation ledger, and the index
+search path.
 """
 import json
 import os

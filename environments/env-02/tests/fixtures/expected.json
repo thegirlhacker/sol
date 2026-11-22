@@ -2,10 +2,14 @@
   "required": [
     "app",
     "reportlib",
+    "metrics",
+    "core",
     "telemetry-sdk"
   ],
   "verified_payload_digests": {
-    "app": "sha256:24e74f4ffa3d3457fc9e9f56bfb986bff7aea1cb368ff5e34b7eab4eca652317",
-    "reportlib": "sha256:638f223154ebeab64c89b48bf53135be9061d502ba59bf6a12b1e60528cb662e"
+    "app": "sha256:7df7d39b1595df75b80f18ab58d4df7677473ab0ba3b1c7906ce456c3e6654ad",
+    "reportlib": "sha256:638f223154ebeab64c89b48bf53135be9061d502ba59bf6a12b1e60528cb662e",
+    "metrics": "sha256:90cc6fbde2015d391581d4dcff18bb36c18ba27d68feb466f298187fa5bd47e9",
+    "core": "sha256:0ff520bfb2c253e8b6ee530b88cac5104b4bbfd08fb56b2710d23896ae078a8d"
   }
 }

@@ -1,9 +1,0 @@
-{
-  "packages": [
-    {
-      "name": "telemetry-sdk",
-      "version": "0.9.4",
-      "digest": "sha256:698b378c5f6a69412af468bd0f0f6f2e2c69dba8f58d109b474554cce4d0b699"
-    }
-  ]
-}

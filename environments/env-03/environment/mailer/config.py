@@ -16,7 +16,7 @@ class Config:
         self.tenants = _abs(data["tenants"])
         self.verified = _abs(data["verified"])
         self.templates = _abs(data["templates"])
-        self.tenant_key = data.get("tenant", "default")
+        self.tenant_key = data.get("tenant", "acme")
 
     @classmethod
     def load(cls, path=None):

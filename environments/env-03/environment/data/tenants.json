@@ -1,10 +1,22 @@
 {
   "tenants": [
     {
-      "key": "default",
-      "display_name": "Northwind Security",
-      "sender": "security-alerts@globalpay.test",
-      "reply_to": "support@sandbox.northwind.test"
+      "key": "acme",
+      "display_name": "Acme Security",
+      "sender": "no-reply@acme-sandbox.test",
+      "reply_to": "support@acme-sandbox.test"
+    },
+    {
+      "key": "globex",
+      "display_name": "Globex Accounts",
+      "sender": "no-reply@globex-sandbox.test",
+      "reply_to": "support@globex-sandbox.test"
+    },
+    {
+      "key": "initech",
+      "display_name": "Initech ID",
+      "sender": "no-reply@initech-sandbox.test",
+      "reply_to": "support@initech-sandbox.test"
     }
   ]
 }

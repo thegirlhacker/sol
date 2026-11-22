@@ -7,7 +7,6 @@ import tempfile
 import pytest
 
 from monitor import transport, inventory
-from monitor.scope import Scope
 from monitor.transport import HostUnreachable
 
 
@@ -38,13 +37,12 @@ def test_deep_records_scan():
         assert '"kind": "deep"' in rows and "ports_scanned" in rows
 
 
-def test_scope_covers():
+def test_deep_reports_open_ports():
     with tempfile.TemporaryDirectory() as d:
-        p = os.path.join(d, "e.json")
-        with open(p, "w") as fh:
-            json.dump({"engagement": "E", "covers": ["a"]}, fh)
-        sc = Scope.load(p)
-        assert sc.covers("a") and not sc.covers("b")
+        t = os.path.join(d, "t")
+        sp = _state(d, {"h1": {"alive": False, "open_ports": [22, 3306]}})
+        ports = transport.deep({"id": "h1"}, t, sp)
+        assert ports == [22, 3306]
 
 
 def test_inventory_loads():

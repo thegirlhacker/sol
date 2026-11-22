@@ -1,8 +1,9 @@
-"""Resolve the dependency graph into a concrete set of package directories to install.
+"""Resolve the dependency graph into the set of package directories to install.
 
-Top-level packages (the ones named in `requirements.lock`) are verified: the package found in
-the index must match the digest the lock pins, or the build fails closed. Their dependencies are
-read from each package's `deps.json` and resolved by name from the indexes.
+`resolve_roots` locates each top-level package and checks it against the lockfile -- name,
+version and payload digest must all match, or the build fails closed. `resolve` then has to extend
+that set with the packages the roots pull in (their transitive closure), which is the part still
+to finish.
 """
 from builder import pkg
 
@@ -14,40 +15,42 @@ class ResolveError(ValueError):
 class Resolver:
     def __init__(self, index, lock):
         self.index = index
-        self.lock = lock              # {name: {"version","digest"}}
+        self.lock = lock                 # {name: {"version", "digest"}} -- the roots
 
-    def _locate(self, name):
-        found = self.index.find(name)
-        if found is None:
-            raise ResolveError(f"package not found in any index: {name}")
-        return found
+    def _check(self, name, path, pin):
+        """Fail unless the package at `path` matches `pin` on name, version and digest."""
+        meta = pkg.meta(path)
+        if meta.get("name") != name:
+            raise ResolveError(f"metadata name mismatch at {path}: {meta.get('name')} != {name}")
+        if meta.get("version") != pin["version"]:
+            raise ResolveError(f"version mismatch for {name}: {meta.get('version')} != "
+                               f"{pin['version']}")
+        got = pkg.digest(path)
+        if got != pin["digest"]:
+            raise ResolveError(f"digest mismatch for {name}: {got} != {pin['digest']}")
+
+    def resolve_roots(self, roots):
+        """Locate and verify the top-level packages against the lock."""
+        resolved = {}
+        for name in roots:
+            pin = self.lock.get(name)
+            if pin is None:
+                raise ResolveError(f"no lock entry for top-level package: {name}")
+            path = self.index.find(name)
+            if path is None:
+                raise ResolveError(f"package not found in any index: {name}")
+            self._check(name, path, pin)
+            resolved[name] = path
+        return resolved
 
     def resolve(self, roots):
-        """Resolve `roots` (top-level names) and everything they pull in.
+        """Resolve `roots` and everything they pull in. Returns {name: package_dir}."""
+        resolved = self.resolve_roots(roots)
 
-        Returns {name: package_dir}. Top-level packages are checked against the lock digest;
-        dependencies are resolved by name from the indexes.
-        """
-        resolved = {}
-        # Top-level: verified against the lock.
-        for name in roots:
-            path = self._locate(name)
-            want = self.lock.get(name)
-            if want is None:
-                raise ResolveError(f"no lock entry for top-level package: {name}")
-            got = pkg.digest(path)
-            if got != want["digest"]:
-                raise ResolveError(f"digest mismatch for {name}: {got} != {want['digest']}")
-            resolved[name] = path
-
-        # Transitive closure: resolved by name from the indexes.
-        frontier = list(resolved)
-        while frontier:
-            name = frontier.pop()
-            for dep in pkg.deps(resolved[name]):
-                if dep in resolved:
-                    continue
-                dep_path = self._locate(dep)
-                resolved[dep] = dep_path
-                frontier.append(dep)
+        # TODO(build): extend `resolved` with the transitive dependency closure. Each package
+        # lists its direct dependencies in deps.json (pkg.deps(path)); locate every dependency
+        # from the index and add it, then do the same for theirs. The graph has shared
+        # dependencies and a cycle (metrics <-> core), so track what is already resolved and
+        # install each package once. Until this is finished the build installs only the roots
+        # and `app` cannot import the modules it depends on.
         return resolved

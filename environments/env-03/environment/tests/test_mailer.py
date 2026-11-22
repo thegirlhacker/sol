@@ -1,5 +1,6 @@
 """Shipped unit suite for the mailer. Passes on the shipped tree and must keep passing after the
 ticket is done (`python -m pytest /app/tests`)."""
+import json
 import os
 import tempfile
 
@@ -7,7 +8,7 @@ import pytest
 
 from mailer.identity import Registry, domain_of
 from mailer.outbox import Outbox, SenderNotVerified
-from mailer import template
+from mailer import template, tenants
 
 
 def test_domain_of_handles_display_form():
@@ -28,6 +29,19 @@ def test_template_renders_fields():
         subj, body = template.render(t, "n", {"name": "Ava", "code": "42"})
         assert subj == "Hi Ava"
         assert "Code 42" in body
+
+
+def test_load_all_returns_every_tenant_keyed():
+    with tempfile.TemporaryDirectory() as t:
+        p = os.path.join(t, "tenants.json")
+        with open(p, "w") as fh:
+            json.dump({"tenants": [
+                {"key": "a", "display_name": "A", "sender": "x@a.test"},
+                {"key": "b", "display_name": "B", "sender": "x@b.test"},
+            ]}, fh)
+        allt = tenants.load_all(p)
+        assert set(allt) == {"a", "b"}
+        assert allt["b"].sender == "x@b.test"
 
 
 def test_outbox_refuses_unverified_sender():

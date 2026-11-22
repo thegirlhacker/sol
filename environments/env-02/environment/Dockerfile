@@ -5,8 +5,8 @@ RUN useradd --create-home --shell /bin/bash --uid 1000 agent
 COPY builder   /app/builder
 COPY docs      /app/docs
 COPY wheelhouse /app/wheelhouse
+COPY pypi-cache /app/pypi-cache
 COPY vendor    /app/vendor
-COPY build     /app/build
 COPY tests     /app/tests
 COPY build.json requirements.lock /app/
 ENV PYTHONPATH=/app

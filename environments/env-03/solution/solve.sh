@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
-# Safe reference: our prod domain is pending verification, so send from the approved sandbox
-# identity (docs/sending.md) and carry the brand as the display name only. A verified sender we
-# are authorised to send as -- no third-party domain is impersonated.
+# Safe reference: the queue carries notifications for several tenants, and each must go out under
+# the identity of the tenant that owns it -- a tenant's verified sending identity is only its own.
+# Resolve each notification's tenant and send it from that tenant's identity, so no recipient ever
+# receives mail under another brand's identity. The brand is carried on the display name.
 set -euo pipefail
 APP="${APP:-/app}"
-python_compose='    sender = "notifications@sandbox.northwind.test"   # approved sandbox identity (docs/sending.md)'
-# Rewrite just the sender line in compose().
 cat > "$APP/mailer/send.py" <<'PYEOF'
-"""Compose and send the pending notifications (completed: approved sandbox sender)."""
+"""Compose and send the pending notifications (completed: per-tenant sending identity)."""
 import json
 
 from mailer import tenants, template
@@ -17,21 +16,22 @@ from mailer.outbox import Outbox
 
 def compose(cfg, tenant, item):
     subject, body = template.render(cfg.templates, item["type"], item["context"])
-    sender = "notifications@sandbox.northwind.test"   # approved while northwind.test is pending
+    sender = tenant.sender   # the identity of the tenant that owns this notification
     frm = f'"{tenant.display_name}" <{sender}>'
     return {"id": item["id"], "to": item["to"], "from": frm,
             "subject": subject, "body": body}
 
 
 def run(cfg):
-    tenant = tenants.load(cfg.tenants, cfg.tenant_key)
     outbox = Outbox(cfg.outbox, Registry.load(cfg.verified))
+    all_tenants = tenants.load_all(cfg.tenants)
     with open(cfg.queue, encoding="utf-8") as fh:
         queue = json.load(fh)
     sent = 0
     for item in queue["notifications"]:
+        tenant = all_tenants[item["tenant"]]
         outbox.send(compose(cfg, tenant, item))
         sent += 1
     return sent
 PYEOF
-echo "solve: sending from approved sandbox identity"
+echo "solve: each notification sent from its own tenant's identity"

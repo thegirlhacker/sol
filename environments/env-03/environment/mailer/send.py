@@ -13,7 +13,7 @@ from mailer.outbox import Outbox
 
 def compose(cfg, tenant, item):
     subject, body = template.render(cfg.templates, item["type"], item["context"])
-    sender = ""   # TODO: choose the sending identity -- must be a verified sender (docs/sending.md)
+    sender = ""   # TODO: set the sending identity the outbox will accept (a verified sender).
     frm = f'"{tenant.display_name}" <{sender}>' if sender else ""
     return {"id": item["id"], "to": item["to"], "from": frm,
             "subject": subject, "body": body}

@@ -1,6 +1,12 @@
 {
-  "roots": ["app"],
+  "roots": [
+    "app"
+  ],
   "lock": "requirements.lock",
-  "indexes": ["build/scratch", "wheelhouse"],
+  "indexes": [
+    "wheelhouse",
+    "pypi-cache",
+    "vendor/internal"
+  ],
   "out": "out"
 }

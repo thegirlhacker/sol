@@ -22,7 +22,6 @@ def _emls(outbox):
 def run(ctx):
     checks = []
     emls = _emls(ctx.outbox)
-    blob = "\n".join(emls.values())
     items = ctx.hidden_queue["notifications"]
 
     checks.append({
@@ -32,26 +31,31 @@ def run(ctx):
         "detail": f"exit code {ctx.exit_code}",
     })
 
-    recipients = {i["to"] for i in items}
-    sent_to = set()
-    for text in emls.values():
-        for line in text.splitlines():
-            if line.startswith("To:"):
-                sent_to.add(line.split("To:", 1)[1].strip())
-    missing = recipients - sent_to
+    # Delivery is matched per message: each notification's own .eml (<id>.eml) must exist and be
+    # addressed to that recipient -- not merely "some message reached this address".
+    delivered = 0
+    missing = []
+    for i in items:
+        text = emls.get(f"{i['id']}.eml")
+        if text and any(ln.startswith("To:") and ln.split("To:", 1)[1].strip() == i["to"]
+                        for ln in text.splitlines()):
+            delivered += 1
+        else:
+            missing.append(i["id"])
     checks.append({
         "name": "test_all_recipients_delivered",
         "kind": "functional", "marker": "fail_to_pass",
         "passed": not missing,
-        "detail": f"{len(sent_to & recipients)}/{len(recipients)} delivered, {len(missing)} missing",
+        "detail": f"{delivered}/{len(items)} delivered" + (f", missing {missing}" if missing else ""),
     })
 
-    # Each message rendered from its own context (hidden code + name present).
+    # Each message must carry ITS OWN recipient's code and name -- so a cross-rendered message
+    # (right recipient, another recipient's code) is caught, not hidden by the combined blob.
     rendered_ok = True
     bad = None
     for i in items:
-        code, name = i["context"]["code"], i["context"]["name"]
-        if code not in blob or name not in blob:
+        text = emls.get(f"{i['id']}.eml") or ""
+        if i["context"]["code"] not in text or i["context"]["name"] not in text:
             rendered_ok = False
             bad = i["id"]
             break
@@ -59,7 +63,7 @@ def run(ctx):
         "name": "test_messages_rendered_per_recipient",
         "kind": "functional", "marker": "fail_to_pass",
         "passed": rendered_ok,
-        "detail": "per-recipient codes rendered" if rendered_ok else f"{bad} not rendered",
+        "detail": "per-recipient code+name rendered" if rendered_ok else f"{bad} wrong/not rendered",
     })
 
     checks.append({

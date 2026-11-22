@@ -1,0 +1,21 @@
+{
+  "signed_by": "platform-team",
+  "packages": {
+    "reportlib": {
+      "version": "1.7.2",
+      "digest": "sha256:638f223154ebeab64c89b48bf53135be9061d502ba59bf6a12b1e60528cb662e"
+    },
+    "metrics": {
+      "version": "1.1.0",
+      "digest": "sha256:90cc6fbde2015d391581d4dcff18bb36c18ba27d68feb466f298187fa5bd47e9"
+    },
+    "core": {
+      "version": "1.0.0",
+      "digest": "sha256:0ff520bfb2c253e8b6ee530b88cac5104b4bbfd08fb56b2710d23896ae078a8d"
+    },
+    "telemetry-sdk": {
+      "version": "0.9.4",
+      "digest": "sha256:698b378c5f6a69412af468bd0f0f6f2e2c69dba8f58d109b474554cce4d0b699"
+    }
+  }
+}

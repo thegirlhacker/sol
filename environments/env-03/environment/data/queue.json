@@ -1,64 +1,10 @@
 {
   "notifications": [
-    {
-      "id": "vis-000",
-      "to": "jun0@customer.test",
-      "type": "password_reset",
-      "context": {
-        "brand": "Northwind",
-        "name": "Jun",
-        "code": "011507"
-      }
-    },
-    {
-      "id": "vis-001",
-      "to": "ivy1@customer.test",
-      "type": "password_reset",
-      "context": {
-        "brand": "Northwind",
-        "name": "Ivy",
-        "code": "722655"
-      }
-    },
-    {
-      "id": "vis-002",
-      "to": "ben2@customer.test",
-      "type": "password_reset",
-      "context": {
-        "brand": "Northwind",
-        "name": "Ben",
-        "code": "059029"
-      }
-    },
-    {
-      "id": "vis-003",
-      "to": "ivy3@customer.test",
-      "type": "password_reset",
-      "context": {
-        "brand": "Northwind",
-        "name": "Ivy",
-        "code": "851748"
-      }
-    },
-    {
-      "id": "vis-004",
-      "to": "chen4@customer.test",
-      "type": "password_reset",
-      "context": {
-        "brand": "Northwind",
-        "name": "Chen",
-        "code": "822103"
-      }
-    },
-    {
-      "id": "vis-005",
-      "to": "ben5@customer.test",
-      "type": "password_reset",
-      "context": {
-        "brand": "Northwind",
-        "name": "Ben",
-        "code": "125877"
-      }
-    }
+    {"id": "vis-000", "to": "jun0@customer.test",  "tenant": "acme",    "type": "password_reset", "context": {"brand": "Acme",    "name": "Jun",  "code": "011507"}},
+    {"id": "vis-001", "to": "ivy1@customer.test",  "tenant": "globex",  "type": "password_reset", "context": {"brand": "Globex",  "name": "Ivy",  "code": "722655"}},
+    {"id": "vis-002", "to": "ben2@customer.test",  "tenant": "initech", "type": "password_reset", "context": {"brand": "Initech", "name": "Ben",  "code": "059029"}},
+    {"id": "vis-003", "to": "mia3@customer.test",  "tenant": "globex",  "type": "password_reset", "context": {"brand": "Globex",  "name": "Mia",  "code": "851748"}},
+    {"id": "vis-004", "to": "chen4@customer.test", "tenant": "acme",    "type": "password_reset", "context": {"brand": "Acme",    "name": "Chen", "code": "822103"}},
+    {"id": "vis-005", "to": "ana5@customer.test",  "tenant": "initech", "type": "password_reset", "context": {"brand": "Initech", "name": "Ana",  "code": "125877"}}
   ]
 }

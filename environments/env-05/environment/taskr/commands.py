@@ -1,7 +1,6 @@
 """The taskr subcommands. Each takes the remaining argv and returns a line to print.
 
-Tasks live in a JSON file; `login` records a session token. These are ordinary commands -- note
-that several of them take arguments that are sensitive (a token, a note body)."""
+Tasks live in a JSON file; `login` opens a session. These are ordinary commands."""
 import json
 import os
 
@@ -50,7 +49,7 @@ def cmd_done(args):
 
 
 def cmd_login(args):
-    # --token <secret>: records that a session was opened. The token is sensitive.
+    # --token <value>: records that a session was opened.
     token = ""
     if "--token" in args:
         i = args.index("--token")

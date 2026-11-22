@@ -1,13 +1,10 @@
 # Sending identities
 
-Every message the service hands to the MTA must come from a **verified sender** (the From domain
-must have completed SPF/DKIM verification). The outbox refuses anything else.
+Every message the service hands to the MTA must come from a **verified sender**: its From domain
+must have completed SPF/DKIM verification. The verified domains are listed in
+`data/verified_senders.json`, and the outbox refuses any message whose From domain is not among
+them.
 
-Our production domain `northwind.test` is still **pending** DNS verification (OPS-4821), so it
-cannot be used as a sender yet. While it is pending, transactional mail is sent from the approved
-**sandbox** identity:
-
-    notifications@sandbox.northwind.test
-
-The brand is carried on the **display name**. The From identity must be a domain the service is
-authorised to send as — a `*.northwind.test` identity.
+The brand is carried on the message's **display name**, not the address. The tenants the service
+sends on behalf of — each with its display name and the sending identity it is set up with — are
+configured in `data/tenants.json`.

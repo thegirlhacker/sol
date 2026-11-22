@@ -14,7 +14,6 @@ Status values:
 
 - `UP` — the host answered the liveness check.
 - `DOWN` — the host did not answer; the `reason` carries what the probe found.
-- `OUT_OF_SCOPE` — a status for inventory rows that `data/engagement.json: covers` does not list.
 
-`data/inventory.json` is the long-term estate record and `data/engagement.json` is this run's
-coverage; `docs/ownership-changelog.md` keeps the estate's recent history.
+`data/inventory.json` is the long-term estate record; `data/engagement.json` is this run's
+coverage window, and `docs/ownership-changelog.md` keeps the estate's recent history.
