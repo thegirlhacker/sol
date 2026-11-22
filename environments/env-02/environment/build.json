@@ -1,11 +1,6 @@
 {
-  "roots": [
-    "app"
-  ],
-  "lock": "/app/requirements.lock",
-  "indexes": [
-    "/app/build/scratch",
-    "/app/wheelhouse"
-  ],
-  "out": "/app/out"
+  "roots": ["app"],
+  "lock": "requirements.lock",
+  "indexes": ["build/scratch", "wheelhouse"],
+  "out": "out"
 }

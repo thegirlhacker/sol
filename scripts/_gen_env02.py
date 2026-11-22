@@ -60,9 +60,9 @@ write(os.path.join(internal, "internal.lock"), json.dumps({
 # the default path -- the build fails to find telemetry-sdk until it is added.
 write(os.path.join(ENV, "build.json"), json.dumps({
     "roots": ["app"],
-    "lock": "/app/requirements.lock",
-    "indexes": ["/app/build/scratch", "/app/wheelhouse"],
-    "out": "/app/out",
+    "lock": "requirements.lock",
+    "indexes": ["build/scratch", "wheelhouse"],
+    "out": "out",
 }, indent=2))
 os.makedirs(os.path.join(ENV, "build", "scratch"), exist_ok=True)
 write(os.path.join(ENV, "build", "scratch", ".keep"), "")
