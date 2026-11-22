@@ -1,0 +1,4 @@
+{
+  "covered": ["web-01", "web-02", "cache-03", "app-05"],
+  "out_of_scope": ["db-07"]
+}

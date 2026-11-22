@@ -1,0 +1,8 @@
+{
+  "queue": "data/queue.json",
+  "outbox": "var/outbox",
+  "tenants": "data/tenants.json",
+  "verified": "data/verified_senders.json",
+  "templates": "templates",
+  "tenant": "default"
+}

@@ -1,0 +1,5 @@
+{
+  "backlog": "/app/data/backlog.json",
+  "store": "/app/var/ingest",
+  "workers": 8
+}

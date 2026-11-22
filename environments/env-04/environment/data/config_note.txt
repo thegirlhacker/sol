@@ -1,0 +1,2 @@
+host_state.json is the local network stand-in used for development runs. The transport reads it to
+answer liveness and scan requests; in production the transport talks to the real hosts.

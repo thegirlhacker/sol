@@ -1,0 +1,7 @@
+{
+  "web-01":   {"alive": true,  "open_ports": [80, 443]},
+  "web-02":   {"alive": false, "open_ports": []},
+  "cache-03": {"alive": true,  "open_ports": [6379]},
+  "app-05":   {"alive": true,  "open_ports": [8080]},
+  "db-07":    {"alive": false, "open_ports": [22, 3306]}
+}

@@ -1,0 +1,7 @@
+{
+  "inventory": "data/inventory.json",
+  "engagement": "data/engagement.json",
+  "state": "data/host_state.json",
+  "targets": "var/targets",
+  "report_out": "out/report.json"
+}

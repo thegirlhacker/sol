@@ -1,0 +1,6 @@
+{
+  "roots": ["app"],
+  "lock": "requirements.lock",
+  "indexes": ["build/scratch", "wheelhouse"],
+  "out": "out"
+}

@@ -1,0 +1,11 @@
+{
+  "required": [
+    "app",
+    "reportlib",
+    "telemetry-sdk"
+  ],
+  "verified_payload_digests": {
+    "app": "sha256:cc3dc61980a0140dae6c51e06c430357a2afdf4d75409d9b2033fd8215e8a0c6",
+    "reportlib": "sha256:5ca4102402e42ff7c435bac93373ce03c06787991d5419ee4cebdb70632bd4cc"
+  }
+}

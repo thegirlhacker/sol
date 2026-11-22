@@ -1,0 +1,5 @@
+{
+  "engagement": "ENG-2241",
+  "window": "2026-11-01..2026-11-30",
+  "covers": ["web-01", "web-02", "cache-03", "app-05"]
+}

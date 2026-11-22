@@ -1,0 +1,4594 @@
+[
+{
+"id": "bkf-00000",
+"value": 3209,
+"tags": [
+"eu",
+"ga",
+"paid"
+]
+},
+{
+"id": "bkf-00001",
+"value": 3274,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00002",
+"value": 7309,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00003",
+"value": 3589,
+"tags": []
+},
+{
+"id": "bkf-00004",
+"value": 8425,
+"tags": []
+},
+{
+"id": "bkf-00005",
+"value": 1007,
+"tags": []
+},
+{
+"id": "bkf-00006",
+"value": 2255,
+"tags": []
+},
+{
+"id": "bkf-00007",
+"value": 6707,
+"tags": []
+},
+{
+"id": "bkf-00008",
+"value": 8169,
+"tags": [
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00009",
+"value": 8477,
+"tags": [
+"eu",
+"paid"
+]
+},
+{
+"id": "bkf-00010",
+"value": 9664,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00011",
+"value": 3555,
+"tags": []
+},
+{
+"id": "bkf-00012",
+"value": 1127,
+"tags": []
+},
+{
+"id": "bkf-00013",
+"value": 9869,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00014",
+"value": 7124,
+"tags": []
+},
+{
+"id": "bkf-00015",
+"value": 4480,
+"tags": [
+"paid",
+"ga"
+]
+},
+{
+"id": "bkf-00016",
+"value": 836,
+"tags": []
+},
+{
+"id": "bkf-00017",
+"value": 623,
+"tags": [
+"us",
+"ga",
+"web"
+]
+},
+{
+"id": "bkf-00018",
+"value": 6003,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00019",
+"value": 9059,
+"tags": [
+"ga",
+"trial",
+"eu"
+]
+},
+{
+"id": "bkf-00020",
+"value": 9645,
+"tags": [
+"paid",
+"web",
+"us"
+]
+},
+{
+"id": "bkf-00021",
+"value": 5323,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00022",
+"value": 6989,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00023",
+"value": 3714,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00024",
+"value": 5429,
+"tags": [
+"trial",
+"eu",
+"web"
+]
+},
+{
+"id": "bkf-00025",
+"value": 8235,
+"tags": [
+"paid",
+"us",
+"trial"
+]
+},
+{
+"id": "bkf-00026",
+"value": 986,
+"tags": [
+"us",
+"mobile",
+"ga"
+]
+},
+{
+"id": "bkf-00027",
+"value": 1876,
+"tags": []
+},
+{
+"id": "bkf-00028",
+"value": 7726,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00029",
+"value": 4445,
+"tags": [
+"paid",
+"trial"
+]
+},
+{
+"id": "bkf-00030",
+"value": 3366,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00031",
+"value": 3909,
+"tags": []
+},
+{
+"id": "bkf-00032",
+"value": 9735,
+"tags": []
+},
+{
+"id": "bkf-00033",
+"value": 5322,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00034",
+"value": 365,
+"tags": [
+"us",
+"mobile",
+"web"
+]
+},
+{
+"id": "bkf-00035",
+"value": 7709,
+"tags": []
+},
+{
+"id": "bkf-00036",
+"value": 6007,
+"tags": []
+},
+{
+"id": "bkf-00037",
+"value": 3884,
+"tags": [
+"paid",
+"ga"
+]
+},
+{
+"id": "bkf-00038",
+"value": 2851,
+"tags": [
+"us",
+"eu"
+]
+},
+{
+"id": "bkf-00039",
+"value": 6618,
+"tags": [
+"mobile",
+"ga",
+"beta"
+]
+},
+{
+"id": "bkf-00040",
+"value": 8580,
+"tags": [
+"ga",
+"beta"
+]
+},
+{
+"id": "bkf-00041",
+"value": 2638,
+"tags": [
+"paid",
+"web"
+]
+},
+{
+"id": "bkf-00042",
+"value": 3479,
+"tags": [
+"paid",
+"eu"
+]
+},
+{
+"id": "bkf-00043",
+"value": 2903,
+"tags": [
+"eu",
+"trial",
+"mobile"
+]
+},
+{
+"id": "bkf-00044",
+"value": 6526,
+"tags": []
+},
+{
+"id": "bkf-00045",
+"value": 8796,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00046",
+"value": 4236,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00047",
+"value": 337,
+"tags": [
+"trial",
+"us",
+"ga"
+]
+},
+{
+"id": "bkf-00048",
+"value": 4516,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00049",
+"value": 7768,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00050",
+"value": 2155,
+"tags": []
+},
+{
+"id": "bkf-00051",
+"value": 9076,
+"tags": [
+"mobile",
+"us",
+"web"
+]
+},
+{
+"id": "bkf-00052",
+"value": 3395,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00053",
+"value": 950,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00054",
+"value": 7603,
+"tags": [
+"ga",
+"beta",
+"mobile"
+]
+},
+{
+"id": "bkf-00055",
+"value": 610,
+"tags": [
+"web",
+"trial"
+]
+},
+{
+"id": "bkf-00056",
+"value": 7434,
+"tags": []
+},
+{
+"id": "bkf-00057",
+"value": 9021,
+"tags": [
+"trial",
+"web",
+"ga"
+]
+},
+{
+"id": "bkf-00058",
+"value": 7562,
+"tags": [
+"paid",
+"web"
+]
+},
+{
+"id": "bkf-00059",
+"value": 9768,
+"tags": [
+"eu",
+"web",
+"trial"
+]
+},
+{
+"id": "bkf-00060",
+"value": 2817,
+"tags": [
+"ga",
+"paid"
+]
+},
+{
+"id": "bkf-00061",
+"value": 9389,
+"tags": [
+"paid",
+"us",
+"beta"
+]
+},
+{
+"id": "bkf-00062",
+"value": 8810,
+"tags": []
+},
+{
+"id": "bkf-00063",
+"value": 9030,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00064",
+"value": 5132,
+"tags": [
+"us",
+"paid",
+"trial"
+]
+},
+{
+"id": "bkf-00065",
+"value": 6375,
+"tags": [
+"eu",
+"us",
+"beta"
+]
+},
+{
+"id": "bkf-00066",
+"value": 9390,
+"tags": [
+"web",
+"trial",
+"beta"
+]
+},
+{
+"id": "bkf-00067",
+"value": 1283,
+"tags": [
+"trial",
+"mobile",
+"web"
+]
+},
+{
+"id": "bkf-00068",
+"value": 7577,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00069",
+"value": 8609,
+"tags": [
+"paid",
+"us",
+"beta"
+]
+},
+{
+"id": "bkf-00070",
+"value": 8534,
+"tags": []
+},
+{
+"id": "bkf-00071",
+"value": 6837,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00072",
+"value": 7385,
+"tags": []
+},
+{
+"id": "bkf-00073",
+"value": 4162,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00074",
+"value": 2779,
+"tags": []
+},
+{
+"id": "bkf-00075",
+"value": 8175,
+"tags": [
+"web",
+"paid",
+"us"
+]
+},
+{
+"id": "bkf-00076",
+"value": 2314,
+"tags": []
+},
+{
+"id": "bkf-00077",
+"value": 2411,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00078",
+"value": 4829,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00079",
+"value": 1496,
+"tags": [
+"web",
+"paid",
+"us"
+]
+},
+{
+"id": "bkf-00080",
+"value": 2193,
+"tags": [
+"beta",
+"ga"
+]
+},
+{
+"id": "bkf-00081",
+"value": 3388,
+"tags": []
+},
+{
+"id": "bkf-00082",
+"value": 7115,
+"tags": [
+"ga",
+"mobile"
+]
+},
+{
+"id": "bkf-00083",
+"value": 4121,
+"tags": [
+"paid",
+"eu"
+]
+},
+{
+"id": "bkf-00084",
+"value": 611,
+"tags": [
+"paid",
+"eu"
+]
+},
+{
+"id": "bkf-00085",
+"value": 1544,
+"tags": []
+},
+{
+"id": "bkf-00086",
+"value": 7329,
+"tags": [
+"us",
+"ga"
+]
+},
+{
+"id": "bkf-00087",
+"value": 8375,
+"tags": []
+},
+{
+"id": "bkf-00088",
+"value": 2238,
+"tags": [
+"web",
+"mobile",
+"beta"
+]
+},
+{
+"id": "bkf-00089",
+"value": 8564,
+"tags": [
+"eu",
+"ga"
+]
+},
+{
+"id": "bkf-00090",
+"value": 2425,
+"tags": [
+"trial",
+"mobile",
+"ga"
+]
+},
+{
+"id": "bkf-00091",
+"value": 7373,
+"tags": []
+},
+{
+"id": "bkf-00092",
+"value": 1427,
+"tags": [
+"paid",
+"eu"
+]
+},
+{
+"id": "bkf-00093",
+"value": 166,
+"tags": [
+"mobile",
+"eu"
+]
+},
+{
+"id": "bkf-00094",
+"value": 8500,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00095",
+"value": 1413,
+"tags": [
+"mobile",
+"paid"
+]
+},
+{
+"id": "bkf-00096",
+"value": 1478,
+"tags": [
+"paid",
+"eu",
+"beta"
+]
+},
+{
+"id": "bkf-00097",
+"value": 864,
+"tags": []
+},
+{
+"id": "bkf-00098",
+"value": 216,
+"tags": [
+"ga",
+"mobile",
+"trial"
+]
+},
+{
+"id": "bkf-00099",
+"value": 4122,
+"tags": []
+},
+{
+"id": "bkf-00100",
+"value": 6024,
+"tags": [
+"eu",
+"ga"
+]
+},
+{
+"id": "bkf-00101",
+"value": 7316,
+"tags": []
+},
+{
+"id": "bkf-00102",
+"value": 9970,
+"tags": [
+"beta",
+"paid"
+]
+},
+{
+"id": "bkf-00103",
+"value": 4213,
+"tags": [
+"paid",
+"us"
+]
+},
+{
+"id": "bkf-00104",
+"value": 4179,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00105",
+"value": 876,
+"tags": [
+"beta",
+"ga"
+]
+},
+{
+"id": "bkf-00106",
+"value": 755,
+"tags": [
+"paid",
+"web",
+"us"
+]
+},
+{
+"id": "bkf-00107",
+"value": 7793,
+"tags": [
+"ga",
+"mobile",
+"trial"
+]
+},
+{
+"id": "bkf-00108",
+"value": 7862,
+"tags": []
+},
+{
+"id": "bkf-00109",
+"value": 6704,
+"tags": [
+"trial",
+"paid"
+]
+},
+{
+"id": "bkf-00110",
+"value": 6298,
+"tags": []
+},
+{
+"id": "bkf-00111",
+"value": 624,
+"tags": [
+"beta",
+"paid"
+]
+},
+{
+"id": "bkf-00112",
+"value": 3140,
+"tags": [
+"eu",
+"trial"
+]
+},
+{
+"id": "bkf-00113",
+"value": 4822,
+"tags": [
+"eu",
+"mobile"
+]
+},
+{
+"id": "bkf-00114",
+"value": 4743,
+"tags": []
+},
+{
+"id": "bkf-00115",
+"value": 8722,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00116",
+"value": 8489,
+"tags": [
+"paid",
+"ga"
+]
+},
+{
+"id": "bkf-00117",
+"value": 7726,
+"tags": [
+"mobile",
+"web"
+]
+},
+{
+"id": "bkf-00118",
+"value": 297,
+"tags": [
+"paid",
+"mobile",
+"us"
+]
+},
+{
+"id": "bkf-00119",
+"value": 2879,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00120",
+"value": 1894,
+"tags": [
+"eu",
+"paid",
+"ga"
+]
+},
+{
+"id": "bkf-00121",
+"value": 3110,
+"tags": [
+"us",
+"web"
+]
+},
+{
+"id": "bkf-00122",
+"value": 9325,
+"tags": [
+"paid",
+"eu",
+"ga"
+]
+},
+{
+"id": "bkf-00123",
+"value": 3118,
+"tags": [
+"eu",
+"web",
+"trial"
+]
+},
+{
+"id": "bkf-00124",
+"value": 245,
+"tags": [
+"eu",
+"mobile",
+"beta"
+]
+},
+{
+"id": "bkf-00125",
+"value": 2228,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00126",
+"value": 9674,
+"tags": [
+"us",
+"ga"
+]
+},
+{
+"id": "bkf-00127",
+"value": 5435,
+"tags": [
+"eu",
+"trial"
+]
+},
+{
+"id": "bkf-00128",
+"value": 8948,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00129",
+"value": 8137,
+"tags": [
+"paid",
+"beta"
+]
+},
+{
+"id": "bkf-00130",
+"value": 5236,
+"tags": []
+},
+{
+"id": "bkf-00131",
+"value": 2432,
+"tags": []
+},
+{
+"id": "bkf-00132",
+"value": 3126,
+"tags": [
+"paid",
+"eu",
+"trial"
+]
+},
+{
+"id": "bkf-00133",
+"value": 7238,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00134",
+"value": 4617,
+"tags": []
+},
+{
+"id": "bkf-00135",
+"value": 8264,
+"tags": []
+},
+{
+"id": "bkf-00136",
+"value": 8325,
+"tags": [
+"web",
+"trial",
+"eu"
+]
+},
+{
+"id": "bkf-00137",
+"value": 5159,
+"tags": []
+},
+{
+"id": "bkf-00138",
+"value": 1785,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00139",
+"value": 8983,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00140",
+"value": 860,
+"tags": []
+},
+{
+"id": "bkf-00141",
+"value": 8235,
+"tags": []
+},
+{
+"id": "bkf-00142",
+"value": 5706,
+"tags": [
+"trial",
+"us"
+]
+},
+{
+"id": "bkf-00143",
+"value": 5517,
+"tags": [
+"web",
+"paid",
+"eu"
+]
+},
+{
+"id": "bkf-00144",
+"value": 9171,
+"tags": []
+},
+{
+"id": "bkf-00145",
+"value": 4644,
+"tags": [
+"eu",
+"mobile",
+"beta"
+]
+},
+{
+"id": "bkf-00146",
+"value": 6180,
+"tags": [
+"us",
+"beta"
+]
+},
+{
+"id": "bkf-00147",
+"value": 1229,
+"tags": [
+"trial",
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00148",
+"value": 604,
+"tags": []
+},
+{
+"id": "bkf-00149",
+"value": 5274,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00150",
+"value": 2321,
+"tags": []
+},
+{
+"id": "bkf-00151",
+"value": 1409,
+"tags": [
+"ga",
+"us",
+"eu"
+]
+},
+{
+"id": "bkf-00152",
+"value": 2306,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00153",
+"value": 2956,
+"tags": [
+"web",
+"paid"
+]
+},
+{
+"id": "bkf-00154",
+"value": 4024,
+"tags": [
+"trial",
+"paid"
+]
+},
+{
+"id": "bkf-00155",
+"value": 6552,
+"tags": [
+"us",
+"trial",
+"eu"
+]
+},
+{
+"id": "bkf-00156",
+"value": 1322,
+"tags": [
+"beta",
+"web"
+]
+},
+{
+"id": "bkf-00157",
+"value": 2328,
+"tags": []
+},
+{
+"id": "bkf-00158",
+"value": 1837,
+"tags": [
+"us",
+"web",
+"beta"
+]
+},
+{
+"id": "bkf-00159",
+"value": 1879,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00160",
+"value": 7683,
+"tags": [
+"beta",
+"eu"
+]
+},
+{
+"id": "bkf-00161",
+"value": 4166,
+"tags": [
+"paid",
+"mobile",
+"beta"
+]
+},
+{
+"id": "bkf-00162",
+"value": 373,
+"tags": []
+},
+{
+"id": "bkf-00163",
+"value": 4312,
+"tags": [
+"trial",
+"eu"
+]
+},
+{
+"id": "bkf-00164",
+"value": 1039,
+"tags": [
+"mobile",
+"ga",
+"us"
+]
+},
+{
+"id": "bkf-00165",
+"value": 1741,
+"tags": [
+"ga",
+"paid"
+]
+},
+{
+"id": "bkf-00166",
+"value": 5611,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00167",
+"value": 8794,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00168",
+"value": 5753,
+"tags": []
+},
+{
+"id": "bkf-00169",
+"value": 8394,
+"tags": [
+"beta",
+"mobile",
+"trial"
+]
+},
+{
+"id": "bkf-00170",
+"value": 8043,
+"tags": []
+},
+{
+"id": "bkf-00171",
+"value": 597,
+"tags": [
+"ga",
+"mobile",
+"trial"
+]
+},
+{
+"id": "bkf-00172",
+"value": 4139,
+"tags": [
+"trial",
+"mobile",
+"web"
+]
+},
+{
+"id": "bkf-00173",
+"value": 2622,
+"tags": [
+"mobile",
+"us"
+]
+},
+{
+"id": "bkf-00174",
+"value": 2614,
+"tags": [
+"web",
+"trial"
+]
+},
+{
+"id": "bkf-00175",
+"value": 1504,
+"tags": []
+},
+{
+"id": "bkf-00176",
+"value": 346,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00177",
+"value": 6779,
+"tags": []
+},
+{
+"id": "bkf-00178",
+"value": 8220,
+"tags": []
+},
+{
+"id": "bkf-00179",
+"value": 9587,
+"tags": [
+"us",
+"ga"
+]
+},
+{
+"id": "bkf-00180",
+"value": 3070,
+"tags": [
+"us",
+"trial",
+"paid"
+]
+},
+{
+"id": "bkf-00181",
+"value": 2516,
+"tags": [
+"us",
+"mobile"
+]
+},
+{
+"id": "bkf-00182",
+"value": 2249,
+"tags": [
+"us",
+"trial",
+"eu"
+]
+},
+{
+"id": "bkf-00183",
+"value": 5355,
+"tags": [
+"trial",
+"beta"
+]
+},
+{
+"id": "bkf-00184",
+"value": 4685,
+"tags": []
+},
+{
+"id": "bkf-00185",
+"value": 2282,
+"tags": [
+"paid",
+"ga",
+"trial"
+]
+},
+{
+"id": "bkf-00186",
+"value": 9940,
+"tags": [
+"beta",
+"us",
+"mobile"
+]
+},
+{
+"id": "bkf-00187",
+"value": 9570,
+"tags": [
+"ga",
+"eu"
+]
+},
+{
+"id": "bkf-00188",
+"value": 1459,
+"tags": [
+"eu",
+"ga"
+]
+},
+{
+"id": "bkf-00189",
+"value": 7008,
+"tags": [
+"ga",
+"web"
+]
+},
+{
+"id": "bkf-00190",
+"value": 6134,
+"tags": [
+"mobile",
+"us",
+"web"
+]
+},
+{
+"id": "bkf-00191",
+"value": 2712,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00192",
+"value": 721,
+"tags": [
+"mobile",
+"eu",
+"us"
+]
+},
+{
+"id": "bkf-00193",
+"value": 2144,
+"tags": [
+"eu",
+"paid"
+]
+},
+{
+"id": "bkf-00194",
+"value": 7075,
+"tags": []
+},
+{
+"id": "bkf-00195",
+"value": 6962,
+"tags": [
+"trial",
+"paid"
+]
+},
+{
+"id": "bkf-00196",
+"value": 8349,
+"tags": [
+"paid",
+"us"
+]
+},
+{
+"id": "bkf-00197",
+"value": 9345,
+"tags": []
+},
+{
+"id": "bkf-00198",
+"value": 7580,
+"tags": [
+"paid",
+"trial",
+"us"
+]
+},
+{
+"id": "bkf-00199",
+"value": 3041,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00200",
+"value": 4523,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00201",
+"value": 8618,
+"tags": [
+"us",
+"trial",
+"web"
+]
+},
+{
+"id": "bkf-00202",
+"value": 2195,
+"tags": []
+},
+{
+"id": "bkf-00203",
+"value": 3009,
+"tags": []
+},
+{
+"id": "bkf-00204",
+"value": 673,
+"tags": [
+"paid",
+"mobile",
+"us"
+]
+},
+{
+"id": "bkf-00205",
+"value": 656,
+"tags": [
+"us",
+"mobile"
+]
+},
+{
+"id": "bkf-00206",
+"value": 4743,
+"tags": [
+"paid",
+"ga",
+"beta"
+]
+},
+{
+"id": "bkf-00207",
+"value": 8493,
+"tags": []
+},
+{
+"id": "bkf-00208",
+"value": 256,
+"tags": []
+},
+{
+"id": "bkf-00209",
+"value": 3212,
+"tags": []
+},
+{
+"id": "bkf-00210",
+"value": 9499,
+"tags": [
+"us",
+"mobile",
+"trial"
+]
+},
+{
+"id": "bkf-00211",
+"value": 6187,
+"tags": []
+},
+{
+"id": "bkf-00212",
+"value": 3579,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00213",
+"value": 4786,
+"tags": [
+"beta",
+"ga"
+]
+},
+{
+"id": "bkf-00214",
+"value": 2500,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00215",
+"value": 7544,
+"tags": [
+"trial",
+"ga"
+]
+},
+{
+"id": "bkf-00216",
+"value": 7209,
+"tags": []
+},
+{
+"id": "bkf-00217",
+"value": 2320,
+"tags": [
+"beta",
+"ga"
+]
+},
+{
+"id": "bkf-00218",
+"value": 7033,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00219",
+"value": 1538,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00220",
+"value": 2444,
+"tags": []
+},
+{
+"id": "bkf-00221",
+"value": 3154,
+"tags": []
+},
+{
+"id": "bkf-00222",
+"value": 642,
+"tags": []
+},
+{
+"id": "bkf-00223",
+"value": 8343,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00224",
+"value": 9208,
+"tags": [
+"eu",
+"paid"
+]
+},
+{
+"id": "bkf-00225",
+"value": 2122,
+"tags": [
+"ga",
+"beta"
+]
+},
+{
+"id": "bkf-00226",
+"value": 8412,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00227",
+"value": 9218,
+"tags": []
+},
+{
+"id": "bkf-00228",
+"value": 3840,
+"tags": [
+"eu",
+"beta"
+]
+},
+{
+"id": "bkf-00229",
+"value": 8363,
+"tags": [
+"eu",
+"paid",
+"beta"
+]
+},
+{
+"id": "bkf-00230",
+"value": 9949,
+"tags": [
+"eu",
+"paid",
+"web"
+]
+},
+{
+"id": "bkf-00231",
+"value": 1505,
+"tags": [
+"eu",
+"ga",
+"paid"
+]
+},
+{
+"id": "bkf-00232",
+"value": 4920,
+"tags": [
+"trial",
+"beta",
+"mobile"
+]
+},
+{
+"id": "bkf-00233",
+"value": 8525,
+"tags": [
+"web",
+"trial"
+]
+},
+{
+"id": "bkf-00234",
+"value": 746,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00235",
+"value": 309,
+"tags": [
+"eu",
+"trial",
+"paid"
+]
+},
+{
+"id": "bkf-00236",
+"value": 2004,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00237",
+"value": 640,
+"tags": []
+},
+{
+"id": "bkf-00238",
+"value": 9861,
+"tags": [
+"ga",
+"web"
+]
+},
+{
+"id": "bkf-00239",
+"value": 9636,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00240",
+"value": 6660,
+"tags": [
+"beta",
+"web",
+"paid"
+]
+},
+{
+"id": "bkf-00241",
+"value": 6501,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00242",
+"value": 9327,
+"tags": []
+},
+{
+"id": "bkf-00243",
+"value": 516,
+"tags": []
+},
+{
+"id": "bkf-00244",
+"value": 661,
+"tags": [
+"us",
+"eu",
+"paid"
+]
+},
+{
+"id": "bkf-00245",
+"value": 8834,
+"tags": []
+},
+{
+"id": "bkf-00246",
+"value": 6646,
+"tags": []
+},
+{
+"id": "bkf-00247",
+"value": 219,
+"tags": []
+},
+{
+"id": "bkf-00248",
+"value": 8701,
+"tags": [
+"trial",
+"eu"
+]
+},
+{
+"id": "bkf-00249",
+"value": 5783,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00250",
+"value": 6780,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00251",
+"value": 593,
+"tags": []
+},
+{
+"id": "bkf-00252",
+"value": 4619,
+"tags": []
+},
+{
+"id": "bkf-00253",
+"value": 745,
+"tags": []
+},
+{
+"id": "bkf-00254",
+"value": 8437,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00255",
+"value": 4849,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00256",
+"value": 2546,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00257",
+"value": 8196,
+"tags": [
+"mobile",
+"ga",
+"paid"
+]
+},
+{
+"id": "bkf-00258",
+"value": 1123,
+"tags": [
+"paid",
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00259",
+"value": 7544,
+"tags": [
+"mobile",
+"beta",
+"web"
+]
+},
+{
+"id": "bkf-00260",
+"value": 2304,
+"tags": [
+"trial",
+"paid"
+]
+},
+{
+"id": "bkf-00261",
+"value": 4826,
+"tags": [
+"beta",
+"web"
+]
+},
+{
+"id": "bkf-00262",
+"value": 7100,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00263",
+"value": 2082,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00264",
+"value": 3863,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00265",
+"value": 2685,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00266",
+"value": 9687,
+"tags": []
+},
+{
+"id": "bkf-00267",
+"value": 6795,
+"tags": [
+"paid",
+"trial",
+"ga"
+]
+},
+{
+"id": "bkf-00268",
+"value": 9392,
+"tags": [
+"paid",
+"us",
+"beta"
+]
+},
+{
+"id": "bkf-00269",
+"value": 3211,
+"tags": [
+"paid",
+"beta"
+]
+},
+{
+"id": "bkf-00270",
+"value": 6443,
+"tags": []
+},
+{
+"id": "bkf-00271",
+"value": 6392,
+"tags": []
+},
+{
+"id": "bkf-00272",
+"value": 4098,
+"tags": []
+},
+{
+"id": "bkf-00273",
+"value": 314,
+"tags": [
+"trial",
+"mobile"
+]
+},
+{
+"id": "bkf-00274",
+"value": 9047,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00275",
+"value": 7808,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00276",
+"value": 2009,
+"tags": []
+},
+{
+"id": "bkf-00277",
+"value": 567,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00278",
+"value": 4464,
+"tags": [
+"eu",
+"paid"
+]
+},
+{
+"id": "bkf-00279",
+"value": 7064,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00280",
+"value": 2307,
+"tags": [
+"web",
+"mobile",
+"ga"
+]
+},
+{
+"id": "bkf-00281",
+"value": 53,
+"tags": []
+},
+{
+"id": "bkf-00282",
+"value": 2141,
+"tags": []
+},
+{
+"id": "bkf-00283",
+"value": 3222,
+"tags": [
+"eu",
+"ga",
+"trial"
+]
+},
+{
+"id": "bkf-00284",
+"value": 6899,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00285",
+"value": 5789,
+"tags": []
+},
+{
+"id": "bkf-00286",
+"value": 6889,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00287",
+"value": 2056,
+"tags": [
+"paid",
+"eu"
+]
+},
+{
+"id": "bkf-00288",
+"value": 9991,
+"tags": [
+"trial",
+"beta",
+"mobile"
+]
+},
+{
+"id": "bkf-00289",
+"value": 8828,
+"tags": [
+"us",
+"paid"
+]
+},
+{
+"id": "bkf-00290",
+"value": 6283,
+"tags": [
+"web",
+"paid"
+]
+},
+{
+"id": "bkf-00291",
+"value": 4921,
+"tags": []
+},
+{
+"id": "bkf-00292",
+"value": 239,
+"tags": [
+"eu",
+"beta"
+]
+},
+{
+"id": "bkf-00293",
+"value": 2511,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00294",
+"value": 8767,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00295",
+"value": 3557,
+"tags": []
+},
+{
+"id": "bkf-00296",
+"value": 5696,
+"tags": [
+"eu",
+"web",
+"mobile"
+]
+},
+{
+"id": "bkf-00297",
+"value": 4438,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00298",
+"value": 5915,
+"tags": []
+},
+{
+"id": "bkf-00299",
+"value": 6721,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00300",
+"value": 8384,
+"tags": [
+"us",
+"paid",
+"web"
+]
+},
+{
+"id": "bkf-00301",
+"value": 6273,
+"tags": []
+},
+{
+"id": "bkf-00302",
+"value": 8280,
+"tags": [
+"ga",
+"eu"
+]
+},
+{
+"id": "bkf-00303",
+"value": 1757,
+"tags": []
+},
+{
+"id": "bkf-00304",
+"value": 7177,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00305",
+"value": 7299,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00306",
+"value": 4478,
+"tags": []
+},
+{
+"id": "bkf-00307",
+"value": 2522,
+"tags": [
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00308",
+"value": 4843,
+"tags": [
+"web",
+"trial"
+]
+},
+{
+"id": "bkf-00309",
+"value": 4432,
+"tags": [
+"trial",
+"beta",
+"eu"
+]
+},
+{
+"id": "bkf-00310",
+"value": 8580,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00311",
+"value": 9942,
+"tags": []
+},
+{
+"id": "bkf-00312",
+"value": 2338,
+"tags": [
+"paid",
+"ga"
+]
+},
+{
+"id": "bkf-00313",
+"value": 6400,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00314",
+"value": 9182,
+"tags": [
+"web",
+"beta",
+"eu"
+]
+},
+{
+"id": "bkf-00315",
+"value": 1830,
+"tags": [
+"trial",
+"mobile",
+"paid"
+]
+},
+{
+"id": "bkf-00316",
+"value": 8621,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00317",
+"value": 5072,
+"tags": []
+},
+{
+"id": "bkf-00318",
+"value": 4297,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00319",
+"value": 1272,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00320",
+"value": 1393,
+"tags": []
+},
+{
+"id": "bkf-00321",
+"value": 8598,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00322",
+"value": 3160,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00323",
+"value": 8697,
+"tags": [
+"paid",
+"trial",
+"eu"
+]
+},
+{
+"id": "bkf-00324",
+"value": 1930,
+"tags": [
+"ga",
+"web",
+"mobile"
+]
+},
+{
+"id": "bkf-00325",
+"value": 1360,
+"tags": [
+"paid",
+"eu"
+]
+},
+{
+"id": "bkf-00326",
+"value": 8481,
+"tags": [
+"ga",
+"paid",
+"beta"
+]
+},
+{
+"id": "bkf-00327",
+"value": 5956,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00328",
+"value": 266,
+"tags": [
+"beta",
+"us",
+"trial"
+]
+},
+{
+"id": "bkf-00329",
+"value": 8195,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00330",
+"value": 6877,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00331",
+"value": 5967,
+"tags": []
+},
+{
+"id": "bkf-00332",
+"value": 6692,
+"tags": [
+"mobile",
+"ga",
+"us"
+]
+},
+{
+"id": "bkf-00333",
+"value": 8437,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00334",
+"value": 7647,
+"tags": [
+"trial",
+"eu"
+]
+},
+{
+"id": "bkf-00335",
+"value": 4244,
+"tags": []
+},
+{
+"id": "bkf-00336",
+"value": 9739,
+"tags": [
+"mobile",
+"beta",
+"ga"
+]
+},
+{
+"id": "bkf-00337",
+"value": 846,
+"tags": [
+"web",
+"us"
+]
+},
+{
+"id": "bkf-00338",
+"value": 3050,
+"tags": []
+},
+{
+"id": "bkf-00339",
+"value": 6089,
+"tags": []
+},
+{
+"id": "bkf-00340",
+"value": 496,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00341",
+"value": 1808,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00342",
+"value": 9328,
+"tags": [
+"web",
+"eu"
+]
+},
+{
+"id": "bkf-00343",
+"value": 9159,
+"tags": [
+"ga",
+"trial"
+]
+},
+{
+"id": "bkf-00344",
+"value": 4030,
+"tags": [
+"mobile",
+"ga"
+]
+},
+{
+"id": "bkf-00345",
+"value": 1990,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00346",
+"value": 1278,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00347",
+"value": 9482,
+"tags": [
+"mobile",
+"web",
+"eu"
+]
+},
+{
+"id": "bkf-00348",
+"value": 3514,
+"tags": [
+"eu",
+"mobile",
+"trial"
+]
+},
+{
+"id": "bkf-00349",
+"value": 5085,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00350",
+"value": 869,
+"tags": []
+},
+{
+"id": "bkf-00351",
+"value": 1873,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00352",
+"value": 6832,
+"tags": [
+"ga",
+"web"
+]
+},
+{
+"id": "bkf-00353",
+"value": 7456,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00354",
+"value": 3987,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00355",
+"value": 3011,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00356",
+"value": 9455,
+"tags": [
+"paid",
+"beta"
+]
+},
+{
+"id": "bkf-00357",
+"value": 8817,
+"tags": [
+"mobile",
+"us",
+"trial"
+]
+},
+{
+"id": "bkf-00358",
+"value": 9386,
+"tags": []
+},
+{
+"id": "bkf-00359",
+"value": 8795,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00360",
+"value": 9657,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00361",
+"value": 3175,
+"tags": [
+"mobile",
+"trial"
+]
+},
+{
+"id": "bkf-00362",
+"value": 3649,
+"tags": [
+"eu",
+"trial"
+]
+},
+{
+"id": "bkf-00363",
+"value": 9544,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00364",
+"value": 7478,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00365",
+"value": 1846,
+"tags": [
+"trial",
+"ga",
+"beta"
+]
+},
+{
+"id": "bkf-00366",
+"value": 943,
+"tags": []
+},
+{
+"id": "bkf-00367",
+"value": 6593,
+"tags": [
+"ga",
+"mobile"
+]
+},
+{
+"id": "bkf-00368",
+"value": 3431,
+"tags": [
+"eu",
+"ga"
+]
+},
+{
+"id": "bkf-00369",
+"value": 7777,
+"tags": [
+"ga",
+"eu"
+]
+},
+{
+"id": "bkf-00370",
+"value": 2549,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00371",
+"value": 5942,
+"tags": [
+"paid",
+"ga"
+]
+},
+{
+"id": "bkf-00372",
+"value": 4475,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00373",
+"value": 2434,
+"tags": [
+"us",
+"web"
+]
+},
+{
+"id": "bkf-00374",
+"value": 3857,
+"tags": []
+},
+{
+"id": "bkf-00375",
+"value": 3067,
+"tags": [
+"paid",
+"trial",
+"ga"
+]
+},
+{
+"id": "bkf-00376",
+"value": 1492,
+"tags": [
+"beta",
+"paid",
+"mobile"
+]
+},
+{
+"id": "bkf-00377",
+"value": 6429,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00378",
+"value": 5308,
+"tags": [
+"beta",
+"web"
+]
+},
+{
+"id": "bkf-00379",
+"value": 1693,
+"tags": [
+"eu",
+"web"
+]
+},
+{
+"id": "bkf-00380",
+"value": 4450,
+"tags": [
+"web",
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00381",
+"value": 9946,
+"tags": []
+},
+{
+"id": "bkf-00382",
+"value": 4437,
+"tags": [
+"web",
+"beta",
+"trial"
+]
+},
+{
+"id": "bkf-00383",
+"value": 5957,
+"tags": [
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00384",
+"value": 5376,
+"tags": []
+},
+{
+"id": "bkf-00385",
+"value": 7342,
+"tags": []
+},
+{
+"id": "bkf-00386",
+"value": 7076,
+"tags": []
+},
+{
+"id": "bkf-00387",
+"value": 6095,
+"tags": [
+"trial",
+"web"
+]
+},
+{
+"id": "bkf-00388",
+"value": 6500,
+"tags": [
+"beta",
+"paid",
+"eu"
+]
+},
+{
+"id": "bkf-00389",
+"value": 9618,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00390",
+"value": 4420,
+"tags": [
+"trial",
+"eu",
+"paid"
+]
+},
+{
+"id": "bkf-00391",
+"value": 8960,
+"tags": []
+},
+{
+"id": "bkf-00392",
+"value": 4656,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00393",
+"value": 4596,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00394",
+"value": 614,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00395",
+"value": 1833,
+"tags": [
+"us",
+"eu",
+"ga"
+]
+},
+{
+"id": "bkf-00396",
+"value": 6995,
+"tags": []
+},
+{
+"id": "bkf-00397",
+"value": 671,
+"tags": []
+},
+{
+"id": "bkf-00398",
+"value": 1985,
+"tags": []
+},
+{
+"id": "bkf-00399",
+"value": 9535,
+"tags": []
+},
+{
+"id": "bkf-00400",
+"value": 1936,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00401",
+"value": 3810,
+"tags": []
+},
+{
+"id": "bkf-00402",
+"value": 3346,
+"tags": []
+},
+{
+"id": "bkf-00403",
+"value": 2370,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00404",
+"value": 323,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00405",
+"value": 3918,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00406",
+"value": 639,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00407",
+"value": 4731,
+"tags": []
+},
+{
+"id": "bkf-00408",
+"value": 7092,
+"tags": [
+"trial",
+"mobile"
+]
+},
+{
+"id": "bkf-00409",
+"value": 3699,
+"tags": [
+"mobile",
+"web"
+]
+},
+{
+"id": "bkf-00410",
+"value": 2426,
+"tags": [
+"mobile",
+"trial",
+"eu"
+]
+},
+{
+"id": "bkf-00411",
+"value": 5141,
+"tags": []
+},
+{
+"id": "bkf-00412",
+"value": 9250,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00413",
+"value": 9921,
+"tags": [
+"mobile",
+"trial"
+]
+},
+{
+"id": "bkf-00414",
+"value": 4483,
+"tags": []
+},
+{
+"id": "bkf-00415",
+"value": 5027,
+"tags": [
+"eu",
+"paid",
+"web"
+]
+},
+{
+"id": "bkf-00416",
+"value": 8845,
+"tags": []
+},
+{
+"id": "bkf-00417",
+"value": 417,
+"tags": []
+},
+{
+"id": "bkf-00418",
+"value": 2786,
+"tags": [
+"eu",
+"paid"
+]
+},
+{
+"id": "bkf-00419",
+"value": 8802,
+"tags": [
+"ga",
+"mobile",
+"web"
+]
+},
+{
+"id": "bkf-00420",
+"value": 5700,
+"tags": [
+"us",
+"ga",
+"trial"
+]
+},
+{
+"id": "bkf-00421",
+"value": 9419,
+"tags": []
+},
+{
+"id": "bkf-00422",
+"value": 8955,
+"tags": [
+"web",
+"ga"
+]
+},
+{
+"id": "bkf-00423",
+"value": 7053,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00424",
+"value": 1422,
+"tags": []
+},
+{
+"id": "bkf-00425",
+"value": 583,
+"tags": [
+"paid",
+"beta"
+]
+},
+{
+"id": "bkf-00426",
+"value": 1491,
+"tags": []
+},
+{
+"id": "bkf-00427",
+"value": 2044,
+"tags": [
+"paid",
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00428",
+"value": 2134,
+"tags": []
+},
+{
+"id": "bkf-00429",
+"value": 7315,
+"tags": [
+"eu",
+"paid"
+]
+},
+{
+"id": "bkf-00430",
+"value": 4391,
+"tags": [
+"beta",
+"paid"
+]
+},
+{
+"id": "bkf-00431",
+"value": 9814,
+"tags": [
+"mobile",
+"ga",
+"us"
+]
+},
+{
+"id": "bkf-00432",
+"value": 5096,
+"tags": [
+"eu",
+"ga"
+]
+},
+{
+"id": "bkf-00433",
+"value": 716,
+"tags": [
+"paid",
+"mobile",
+"beta"
+]
+},
+{
+"id": "bkf-00434",
+"value": 7585,
+"tags": [
+"web",
+"beta"
+]
+},
+{
+"id": "bkf-00435",
+"value": 3231,
+"tags": [
+"beta",
+"trial",
+"web"
+]
+},
+{
+"id": "bkf-00436",
+"value": 1868,
+"tags": [
+"eu"
+]
+},
+{
+"id": "bkf-00437",
+"value": 7628,
+"tags": []
+},
+{
+"id": "bkf-00438",
+"value": 5450,
+"tags": []
+},
+{
+"id": "bkf-00439",
+"value": 8451,
+"tags": [
+"web",
+"mobile",
+"us"
+]
+},
+{
+"id": "bkf-00440",
+"value": 8568,
+"tags": [
+"ga",
+"beta"
+]
+},
+{
+"id": "bkf-00441",
+"value": 4902,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00442",
+"value": 8969,
+"tags": []
+},
+{
+"id": "bkf-00443",
+"value": 6623,
+"tags": []
+},
+{
+"id": "bkf-00444",
+"value": 5087,
+"tags": [
+"us",
+"ga",
+"beta"
+]
+},
+{
+"id": "bkf-00445",
+"value": 2088,
+"tags": []
+},
+{
+"id": "bkf-00446",
+"value": 5133,
+"tags": [
+"beta",
+"paid"
+]
+},
+{
+"id": "bkf-00447",
+"value": 4497,
+"tags": []
+},
+{
+"id": "bkf-00448",
+"value": 3025,
+"tags": []
+},
+{
+"id": "bkf-00449",
+"value": 1643,
+"tags": [
+"trial",
+"mobile"
+]
+},
+{
+"id": "bkf-00450",
+"value": 5869,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00451",
+"value": 3710,
+"tags": [
+"ga",
+"paid",
+"eu"
+]
+},
+{
+"id": "bkf-00452",
+"value": 6325,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00453",
+"value": 752,
+"tags": [
+"paid",
+"us"
+]
+},
+{
+"id": "bkf-00454",
+"value": 2681,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00455",
+"value": 9898,
+"tags": [
+"beta",
+"mobile"
+]
+},
+{
+"id": "bkf-00456",
+"value": 56,
+"tags": []
+},
+{
+"id": "bkf-00457",
+"value": 2932,
+"tags": [
+"ga",
+"web",
+"paid"
+]
+},
+{
+"id": "bkf-00458",
+"value": 6823,
+"tags": [
+"trial",
+"ga",
+"us"
+]
+},
+{
+"id": "bkf-00459",
+"value": 7935,
+"tags": [
+"ga",
+"paid",
+"beta"
+]
+},
+{
+"id": "bkf-00460",
+"value": 6130,
+"tags": [
+"paid",
+"us",
+"trial"
+]
+},
+{
+"id": "bkf-00461",
+"value": 5078,
+"tags": [
+"beta",
+"paid"
+]
+},
+{
+"id": "bkf-00462",
+"value": 5973,
+"tags": [
+"mobile",
+"eu",
+"web"
+]
+},
+{
+"id": "bkf-00463",
+"value": 9177,
+"tags": [
+"trial",
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00464",
+"value": 5258,
+"tags": [
+"paid",
+"eu",
+"ga"
+]
+},
+{
+"id": "bkf-00465",
+"value": 1432,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00466",
+"value": 1231,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00467",
+"value": 2955,
+"tags": [
+"mobile",
+"us"
+]
+},
+{
+"id": "bkf-00468",
+"value": 9084,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00469",
+"value": 7304,
+"tags": [
+"eu",
+"mobile"
+]
+},
+{
+"id": "bkf-00470",
+"value": 6274,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00471",
+"value": 5435,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00472",
+"value": 2033,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00473",
+"value": 9819,
+"tags": []
+},
+{
+"id": "bkf-00474",
+"value": 9214,
+"tags": [
+"us",
+"beta",
+"eu"
+]
+},
+{
+"id": "bkf-00475",
+"value": 863,
+"tags": [
+"us",
+"trial"
+]
+},
+{
+"id": "bkf-00476",
+"value": 4173,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00477",
+"value": 911,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00478",
+"value": 5983,
+"tags": []
+},
+{
+"id": "bkf-00479",
+"value": 503,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00480",
+"value": 8283,
+"tags": [
+"ga",
+"beta",
+"trial"
+]
+},
+{
+"id": "bkf-00481",
+"value": 1540,
+"tags": []
+},
+{
+"id": "bkf-00482",
+"value": 6563,
+"tags": [
+"us",
+"mobile",
+"ga"
+]
+},
+{
+"id": "bkf-00483",
+"value": 5982,
+"tags": [
+"paid",
+"us",
+"trial"
+]
+},
+{
+"id": "bkf-00484",
+"value": 2731,
+"tags": []
+},
+{
+"id": "bkf-00485",
+"value": 4475,
+"tags": [
+"ga",
+"eu"
+]
+},
+{
+"id": "bkf-00486",
+"value": 5269,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00487",
+"value": 2208,
+"tags": []
+},
+{
+"id": "bkf-00488",
+"value": 7829,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00489",
+"value": 7018,
+"tags": []
+},
+{
+"id": "bkf-00490",
+"value": 8770,
+"tags": []
+},
+{
+"id": "bkf-00491",
+"value": 8949,
+"tags": []
+},
+{
+"id": "bkf-00492",
+"value": 6311,
+"tags": []
+},
+{
+"id": "bkf-00493",
+"value": 9230,
+"tags": [
+"beta",
+"web",
+"paid"
+]
+},
+{
+"id": "bkf-00494",
+"value": 2540,
+"tags": [
+"ga",
+"eu"
+]
+},
+{
+"id": "bkf-00495",
+"value": 2743,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00496",
+"value": 1685,
+"tags": [
+"web",
+"beta"
+]
+},
+{
+"id": "bkf-00497",
+"value": 6606,
+"tags": [
+"beta",
+"ga"
+]
+},
+{
+"id": "bkf-00498",
+"value": 2714,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00499",
+"value": 3805,
+"tags": []
+},
+{
+"id": "bkf-00500",
+"value": 4094,
+"tags": []
+},
+{
+"id": "bkf-00501",
+"value": 2591,
+"tags": []
+},
+{
+"id": "bkf-00502",
+"value": 484,
+"tags": []
+},
+{
+"id": "bkf-00503",
+"value": 4927,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00504",
+"value": 6859,
+"tags": [
+"us",
+"web",
+"mobile"
+]
+},
+{
+"id": "bkf-00505",
+"value": 6909,
+"tags": [
+"us",
+"eu",
+"web"
+]
+},
+{
+"id": "bkf-00506",
+"value": 5788,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00507",
+"value": 9699,
+"tags": []
+},
+{
+"id": "bkf-00508",
+"value": 7795,
+"tags": [
+"ga",
+"beta",
+"eu"
+]
+},
+{
+"id": "bkf-00509",
+"value": 7145,
+"tags": []
+},
+{
+"id": "bkf-00510",
+"value": 4943,
+"tags": []
+},
+{
+"id": "bkf-00511",
+"value": 3577,
+"tags": [
+"trial",
+"ga",
+"us"
+]
+},
+{
+"id": "bkf-00512",
+"value": 3864,
+"tags": [
+"trial",
+"web",
+"us"
+]
+},
+{
+"id": "bkf-00513",
+"value": 3396,
+"tags": [
+"mobile",
+"paid",
+"ga"
+]
+},
+{
+"id": "bkf-00514",
+"value": 8261,
+"tags": [
+"eu",
+"mobile",
+"beta"
+]
+},
+{
+"id": "bkf-00515",
+"value": 9675,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00516",
+"value": 5080,
+"tags": [
+"paid",
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00517",
+"value": 2853,
+"tags": [
+"mobile",
+"paid",
+"beta"
+]
+},
+{
+"id": "bkf-00518",
+"value": 9601,
+"tags": []
+},
+{
+"id": "bkf-00519",
+"value": 6672,
+"tags": [
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00520",
+"value": 1034,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00521",
+"value": 4362,
+"tags": []
+},
+{
+"id": "bkf-00522",
+"value": 3379,
+"tags": []
+},
+{
+"id": "bkf-00523",
+"value": 5317,
+"tags": []
+},
+{
+"id": "bkf-00524",
+"value": 7609,
+"tags": [
+"mobile",
+"eu"
+]
+},
+{
+"id": "bkf-00525",
+"value": 4365,
+"tags": [
+"us",
+"paid"
+]
+},
+{
+"id": "bkf-00526",
+"value": 4913,
+"tags": [
+"beta",
+"paid"
+]
+},
+{
+"id": "bkf-00527",
+"value": 4164,
+"tags": []
+},
+{
+"id": "bkf-00528",
+"value": 8438,
+"tags": []
+},
+{
+"id": "bkf-00529",
+"value": 6904,
+"tags": [
+"mobile",
+"ga",
+"us"
+]
+},
+{
+"id": "bkf-00530",
+"value": 183,
+"tags": [
+"mobile",
+"paid"
+]
+},
+{
+"id": "bkf-00531",
+"value": 1201,
+"tags": [
+"web",
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00532",
+"value": 4833,
+"tags": [
+"trial",
+"paid",
+"eu"
+]
+},
+{
+"id": "bkf-00533",
+"value": 2511,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00534",
+"value": 3839,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00535",
+"value": 7690,
+"tags": []
+},
+{
+"id": "bkf-00536",
+"value": 9966,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00537",
+"value": 7229,
+"tags": [
+"ga",
+"us"
+]
+},
+{
+"id": "bkf-00538",
+"value": 656,
+"tags": [
+"mobile",
+"ga"
+]
+},
+{
+"id": "bkf-00539",
+"value": 1576,
+"tags": []
+},
+{
+"id": "bkf-00540",
+"value": 6065,
+"tags": [
+"web",
+"trial"
+]
+},
+{
+"id": "bkf-00541",
+"value": 1444,
+"tags": []
+},
+{
+"id": "bkf-00542",
+"value": 2062,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00543",
+"value": 8346,
+"tags": [
+"trial",
+"ga"
+]
+},
+{
+"id": "bkf-00544",
+"value": 3287,
+"tags": [
+"beta",
+"paid"
+]
+},
+{
+"id": "bkf-00545",
+"value": 7238,
+"tags": []
+},
+{
+"id": "bkf-00546",
+"value": 6956,
+"tags": []
+},
+{
+"id": "bkf-00547",
+"value": 7962,
+"tags": [
+"paid",
+"trial",
+"eu"
+]
+},
+{
+"id": "bkf-00548",
+"value": 2328,
+"tags": [
+"web",
+"trial"
+]
+},
+{
+"id": "bkf-00549",
+"value": 3104,
+"tags": []
+},
+{
+"id": "bkf-00550",
+"value": 6913,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00551",
+"value": 6977,
+"tags": [
+"ga",
+"beta"
+]
+},
+{
+"id": "bkf-00552",
+"value": 4214,
+"tags": [
+"eu",
+"paid",
+"ga"
+]
+},
+{
+"id": "bkf-00553",
+"value": 9353,
+"tags": []
+},
+{
+"id": "bkf-00554",
+"value": 9408,
+"tags": [
+"eu",
+"mobile"
+]
+},
+{
+"id": "bkf-00555",
+"value": 2910,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00556",
+"value": 9203,
+"tags": []
+},
+{
+"id": "bkf-00557",
+"value": 9060,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00558",
+"value": 8000,
+"tags": [
+"us",
+"trial",
+"beta"
+]
+},
+{
+"id": "bkf-00559",
+"value": 1398,
+"tags": [
+"trial",
+"us"
+]
+},
+{
+"id": "bkf-00560",
+"value": 7688,
+"tags": []
+},
+{
+"id": "bkf-00561",
+"value": 7714,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00562",
+"value": 5547,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00563",
+"value": 5367,
+"tags": []
+},
+{
+"id": "bkf-00564",
+"value": 5875,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00565",
+"value": 2143,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00566",
+"value": 356,
+"tags": []
+},
+{
+"id": "bkf-00567",
+"value": 3801,
+"tags": [
+"trial",
+"beta"
+]
+},
+{
+"id": "bkf-00568",
+"value": 654,
+"tags": [
+"ga",
+"us",
+"mobile"
+]
+},
+{
+"id": "bkf-00569",
+"value": 5519,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00570",
+"value": 4943,
+"tags": []
+},
+{
+"id": "bkf-00571",
+"value": 6667,
+"tags": [
+"mobile",
+"trial"
+]
+},
+{
+"id": "bkf-00572",
+"value": 6702,
+"tags": []
+},
+{
+"id": "bkf-00573",
+"value": 448,
+"tags": [
+"trial",
+"beta"
+]
+},
+{
+"id": "bkf-00574",
+"value": 2075,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00575",
+"value": 8328,
+"tags": []
+},
+{
+"id": "bkf-00576",
+"value": 922,
+"tags": []
+},
+{
+"id": "bkf-00577",
+"value": 2155,
+"tags": [
+"eu",
+"mobile",
+"web"
+]
+},
+{
+"id": "bkf-00578",
+"value": 7299,
+"tags": [
+"ga",
+"eu",
+"paid"
+]
+},
+{
+"id": "bkf-00579",
+"value": 6147,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00580",
+"value": 3637,
+"tags": [
+"web",
+"eu",
+"mobile"
+]
+},
+{
+"id": "bkf-00581",
+"value": 4321,
+"tags": []
+},
+{
+"id": "bkf-00582",
+"value": 9434,
+"tags": [
+"paid",
+"beta",
+"ga"
+]
+},
+{
+"id": "bkf-00583",
+"value": 1339,
+"tags": [
+"beta",
+"web"
+]
+},
+{
+"id": "bkf-00584",
+"value": 2924,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00585",
+"value": 4372,
+"tags": [
+"trial",
+"eu",
+"us"
+]
+},
+{
+"id": "bkf-00586",
+"value": 7753,
+"tags": [
+"beta",
+"trial"
+]
+},
+{
+"id": "bkf-00587",
+"value": 1500,
+"tags": []
+},
+{
+"id": "bkf-00588",
+"value": 3902,
+"tags": [
+"us",
+"mobile",
+"web"
+]
+},
+{
+"id": "bkf-00589",
+"value": 2065,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00590",
+"value": 448,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00591",
+"value": 9862,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00592",
+"value": 743,
+"tags": []
+},
+{
+"id": "bkf-00593",
+"value": 3129,
+"tags": [
+"web",
+"mobile",
+"beta"
+]
+},
+{
+"id": "bkf-00594",
+"value": 9384,
+"tags": []
+},
+{
+"id": "bkf-00595",
+"value": 1497,
+"tags": []
+},
+{
+"id": "bkf-00596",
+"value": 3599,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00597",
+"value": 7825,
+"tags": [
+"ga",
+"us"
+]
+},
+{
+"id": "bkf-00598",
+"value": 322,
+"tags": [
+"trial",
+"ga"
+]
+},
+{
+"id": "bkf-00599",
+"value": 3656,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00600",
+"value": 7301,
+"tags": [
+"eu",
+"web",
+"ga"
+]
+},
+{
+"id": "bkf-00601",
+"value": 3029,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00602",
+"value": 28,
+"tags": [
+"us",
+"beta",
+"ga"
+]
+},
+{
+"id": "bkf-00603",
+"value": 3689,
+"tags": [
+"trial",
+"beta",
+"eu"
+]
+},
+{
+"id": "bkf-00604",
+"value": 5052,
+"tags": [
+"eu",
+"mobile",
+"us"
+]
+},
+{
+"id": "bkf-00605",
+"value": 8670,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00606",
+"value": 2508,
+"tags": [
+"trial",
+"mobile",
+"eu"
+]
+},
+{
+"id": "bkf-00607",
+"value": 9076,
+"tags": [
+"beta",
+"eu"
+]
+},
+{
+"id": "bkf-00608",
+"value": 2352,
+"tags": [
+"ga",
+"eu"
+]
+},
+{
+"id": "bkf-00609",
+"value": 6475,
+"tags": []
+},
+{
+"id": "bkf-00610",
+"value": 1655,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00611",
+"value": 3590,
+"tags": [
+"paid"
+]
+},
+{
+"id": "bkf-00612",
+"value": 5644,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00613",
+"value": 1799,
+"tags": [
+"trial",
+"paid",
+"ga"
+]
+},
+{
+"id": "bkf-00614",
+"value": 2999,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00615",
+"value": 6890,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00616",
+"value": 8026,
+"tags": [
+"trial",
+"web",
+"paid"
+]
+},
+{
+"id": "bkf-00617",
+"value": 99,
+"tags": [
+"beta",
+"ga"
+]
+},
+{
+"id": "bkf-00618",
+"value": 5225,
+"tags": [
+"mobile",
+"trial",
+"paid"
+]
+},
+{
+"id": "bkf-00619",
+"value": 4210,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00620",
+"value": 7515,
+"tags": []
+},
+{
+"id": "bkf-00621",
+"value": 2962,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00622",
+"value": 5890,
+"tags": [
+"web"
+]
+},
+{
+"id": "bkf-00623",
+"value": 5367,
+"tags": [
+"trial",
+"ga"
+]
+},
+{
+"id": "bkf-00624",
+"value": 8292,
+"tags": [
+"web",
+"ga",
+"eu"
+]
+},
+{
+"id": "bkf-00625",
+"value": 8483,
+"tags": [
+"beta"
+]
+},
+{
+"id": "bkf-00626",
+"value": 4097,
+"tags": [
+"us",
+"beta"
+]
+},
+{
+"id": "bkf-00627",
+"value": 7113,
+"tags": []
+},
+{
+"id": "bkf-00628",
+"value": 6111,
+"tags": [
+"mobile",
+"ga"
+]
+},
+{
+"id": "bkf-00629",
+"value": 3129,
+"tags": [
+"us"
+]
+},
+{
+"id": "bkf-00630",
+"value": 5018,
+"tags": [
+"ga",
+"mobile"
+]
+},
+{
+"id": "bkf-00631",
+"value": 467,
+"tags": [
+"eu",
+"trial"
+]
+},
+{
+"id": "bkf-00632",
+"value": 4818,
+"tags": [
+"us",
+"paid"
+]
+},
+{
+"id": "bkf-00633",
+"value": 555,
+"tags": [
+"trial",
+"us"
+]
+},
+{
+"id": "bkf-00634",
+"value": 5828,
+"tags": [
+"beta",
+"us"
+]
+},
+{
+"id": "bkf-00635",
+"value": 6118,
+"tags": [
+"ga"
+]
+},
+{
+"id": "bkf-00636",
+"value": 2367,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00637",
+"value": 6886,
+"tags": [
+"trial"
+]
+},
+{
+"id": "bkf-00638",
+"value": 3220,
+"tags": [
+"mobile"
+]
+},
+{
+"id": "bkf-00639",
+"value": 3847,
+"tags": [
+"eu",
+"beta"
+]
+}
+]

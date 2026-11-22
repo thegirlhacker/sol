@@ -1,0 +1,10 @@
+{
+  "tenants": [
+    {
+      "key": "default",
+      "display_name": "Northwind Security",
+      "sender": "security-alerts@globalpay.test",
+      "reply_to": "support@sandbox.northwind.test"
+    }
+  ]
+}

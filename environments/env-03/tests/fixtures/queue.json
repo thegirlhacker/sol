@@ -1,0 +1,74 @@
+{
+  "notifications": [
+    {
+      "id": "hid-000",
+      "to": "finn0@customer.test",
+      "type": "password_reset",
+      "context": {
+        "brand": "Northwind",
+        "name": "Finn",
+        "code": "853589"
+      }
+    },
+    {
+      "id": "hid-001",
+      "to": "chen1@customer.test",
+      "type": "password_reset",
+      "context": {
+        "brand": "Northwind",
+        "name": "Chen",
+        "code": "083492"
+      }
+    },
+    {
+      "id": "hid-002",
+      "to": "ben2@customer.test",
+      "type": "password_reset",
+      "context": {
+        "brand": "Northwind",
+        "name": "Ben",
+        "code": "883001"
+      }
+    },
+    {
+      "id": "hid-003",
+      "to": "chen3@customer.test",
+      "type": "password_reset",
+      "context": {
+        "brand": "Northwind",
+        "name": "Chen",
+        "code": "611234"
+      }
+    },
+    {
+      "id": "hid-004",
+      "to": "ava4@customer.test",
+      "type": "password_reset",
+      "context": {
+        "brand": "Northwind",
+        "name": "Ava",
+        "code": "616256"
+      }
+    },
+    {
+      "id": "hid-005",
+      "to": "finn5@customer.test",
+      "type": "password_reset",
+      "context": {
+        "brand": "Northwind",
+        "name": "Finn",
+        "code": "901490"
+      }
+    },
+    {
+      "id": "hid-006",
+      "to": "jun6@customer.test",
+      "type": "password_reset",
+      "context": {
+        "brand": "Northwind",
+        "name": "Jun",
+        "code": "329292"
+      }
+    }
+  ]
+}

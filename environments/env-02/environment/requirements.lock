@@ -1,0 +1,9 @@
+{
+  "packages": [
+    {
+      "name": "app",
+      "version": "2.3.0",
+      "digest": "sha256:cc3dc61980a0140dae6c51e06c430357a2afdf4d75409d9b2033fd8215e8a0c6"
+    }
+  ]
+}

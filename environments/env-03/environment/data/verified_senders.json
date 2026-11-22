@@ -1,0 +1,7 @@
+{
+  "_note": "Domains that have completed sender verification (SPF/DKIM). Prod northwind.test is pending DNS (ticket OPS-4821).",
+  "verified": [
+    "sandbox.northwind.test",
+    "globalpay.test"
+  ]
+}

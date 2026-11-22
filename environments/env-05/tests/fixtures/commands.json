@@ -1,0 +1,13 @@
+{
+  "sequence": [
+    ["add", "buy milk"],
+    ["add", "call mom about the weekend"],
+    ["login", "--token", "SEKRET-TOKEN-9A2B7C"],
+    ["list"],
+    ["done", "1"],
+    ["login", "--token", "SEKRET-TOKEN-ZZ31Q"],
+    ["add", "ship release"]
+  ],
+  "secrets": ["SEKRET-TOKEN-9A2B7C", "SEKRET-TOKEN-ZZ31Q"],
+  "expected_counts": {"add": 3, "login": 2, "list": 1, "done": 1}
+}

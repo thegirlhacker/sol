@@ -1,0 +1,9 @@
+{
+  "hosts": [
+    {"id": "web-01",   "address": "10.2.1.11", "role": "frontend"},
+    {"id": "web-02",   "address": "10.2.1.12", "role": "frontend"},
+    {"id": "cache-03", "address": "10.2.2.23", "role": "cache"},
+    {"id": "app-05",   "address": "10.2.3.35", "role": "app"},
+    {"id": "db-07",    "address": "10.2.4.7",  "role": "db"}
+  ]
+}
