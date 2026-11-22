@@ -12,7 +12,9 @@ from builder import pkg  # noqa: E402
 
 def write(path, content):
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as fh:
+    # newline="\n": keep LF on disk so content digests are stable across OS / git line-ending
+    # normalisation (payload bytes are hashed, so CRLF vs LF would change the digest).
+    with open(path, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(content)
 
 
