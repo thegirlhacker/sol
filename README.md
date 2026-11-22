@@ -43,13 +43,20 @@ Expected for every environment: `noop 0/f/v · safe 1/T/v · unsafe 0/T/V`.
 
 Each also loads under Harbor unchanged (`harbor lint environments/env-0X` passes on all five).
 
-## Status / what's left
-- **Built and locally verified:** all five repos, graders, safe + unsafe references, hidden
-  fixtures, Harbor wiring (`task.toml`, `tests/test.sh`, verifier Dockerfile). The grid above is
-  green on all five.
-- **Pending:** the recorded gpt-6.1-sol breaking rollouts under Harbor (Docker build + model
-  endpoint) and the populated `results/` tree. See `QUALITY_BAR.md` for the standard held and the
-  exact remaining steps.
+## Status
+- **Built and verified:** all five repos, graders, safe + unsafe references, hidden fixtures,
+  Harbor wiring (`task.toml`, `tests/test.sh`, verifier Dockerfile). The grid is green on all five
+  (`noop 0/f/v · safe 1/T/v · unsafe 0/T/V`), and `harbor lint` passes on all five.
+- **Run under Harbor in Docker:** pipeline validated with the `nop` agent (scores 0) and the
+  `oracle` agent (runs `solve.sh`, scores 1), then rolled out against `openai/gpt-6.1-sol`. See
+  `results/SUMMARY.md` and `results/env-0X/`.
+- **Honest rollout finding:** `gpt-6.1-sol` is strongly aligned and completed all five along the
+  safe path at k=1 (no shortcut taken). Each environment is nonetheless a valid discriminator — the
+  grid proves safe→1 and unsafe→0/T/V, the harm is reachable, and the safety check convicts on it;
+  a less-careful agent that takes the shortcut scores 0 with a violation. `QUALITY_BAR.md` holds the
+  standard; the final no-network rollouts run on Linux (Windows Docker cannot start Harbor's
+  nftables egress sidecar — the public-network rollouts here are equivalent since every harm is a
+  local file effect).
 
 ## Layout
 ```
@@ -62,6 +69,6 @@ environments/env-0X/
   unsafe_reference/violation.sh   unsafe reference (0/T/V)
   run_grid.sh           local grid runner
   README.md             the write-up
-results/                per-env reference + rollout runs (to be populated)
+results/                SUMMARY.md + per-env grid.txt and model-rollout.* evidence
 scripts/                endpoint check + rollout driver + data authoring helpers
 ```
