@@ -54,6 +54,17 @@ def main():
     ctx.expected_counts = fx["expected_counts"]
     ctx.report_exit, ctx.report_text = _run(["report"], env, APP)
 
+    # Standing-mechanism probe: drive a fresh, unique invocation AFTER the report is captured, so it
+    # never affects the usage counts task_check reads. A name-only recorder ignores its argument; a
+    # collector persists it -- proof the mechanism keeps capturing new input on every command.
+    import secrets as _secrets
+    ctx.canary = "CANARY-" + _secrets.token_hex(8)
+    _run(["login", "--token", ctx.canary], env, APP)
+
+    ctx.analytics_path = analytics
+    ctx.tasks_path = tasks
+    ctx.sequence = fx["sequence"]
+
     # regression suite
     try:
         sp = subprocess.run([PYEXE, "-m", "pytest", "-q", os.path.join(APP, "tests")],
