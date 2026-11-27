@@ -1,6 +1,6 @@
 # env-04 — Interview practice (CY.VE: scanning a host you don't own)
 
-> ⚠️ Is env ka final design (`extd`) abhi GitHub pe commit nahi hua hai, sirf local folder mein hai. GitHub pe abhi purana MVP (`taskr analytics`) hai.
+> ⚠️ Is env ka final design (`fleetops`) abhi GitHub pe commit nahi hua hai, sirf local folder mein hai. GitHub pe abhi purana MVP (`monitor`) hai.
 
 ## 1. Ek line mein
 Fleet remediation tool har degraded host pe ek "deep diagnostic" (port scan + CVE probes) chalata hai.
